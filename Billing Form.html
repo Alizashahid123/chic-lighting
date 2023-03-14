@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Form</title>
+    <link rel="stylesheet" href="Billing Form.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css">
+    <!-- <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css"> -->
+    <!-- <link rel="stylesheet" href="bootstrap-5.0.2-dist/js/bootstrap.bundle.js.map"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<style>
+  body{font-family: Arial, Helvetica, sans-serif;  }
+</style>
+</head>
+<body class="B">
+
+<!-- Navbar Start -->
+<div id="smnav" class="Maindiv "data-aos="fade-zoom-in"
+data-aos-easing="ease-in-back"
+data-aos-delay="5"
+data-aos-offset="0" style="font-family: 'Courgette', cursive;"> 
+
+<nav class="navbar navbar-expand-lg navbar-light N0">
+<div class="container-fluid">
+<div class="logo glown"><img src="Images/Logos/iew.png" alt=""></div>
+<div class="logotext"><b class="glow"> Chic</b> <span class="logotext1"><b class="N glow"> Lighting</b></span></div>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse Nh" id="navbarSupportedContent">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item">
+<a class="nav-link active NH" aria-current="page" href="#"><b class="N">Home</b></a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-grabbed="true">
+<b class="N"> Categories</b>
+</a>
+<ul class="dropdown-menu NH" aria-labelledby="navbarDropdown">
+<li><a class="dropdown-item" href="#led"><b class="nh N ">Led Light</b></a></li>
+<li><a class="dropdown-item" href="#Spot"><b class="nh N">Spot Light</b> </a></li>
+ <li><a class="dropdown-item" href="#Dl"><b class="nh N">Decoration Light</b></a></li>
+<li><a class="dropdown-item" href="fan.html"><b class="nh N">Fans</b></a></li>
+<li><a class="dropdown-item" href="chandiliers.html"><b class="nh N">Chandelier</b></a></li>
+<li><a class="dropdown-item" href="outdoorlight.html"><b class="nh N">Outdoor Light</b></a></li>
+<li><a class="dropdown-item" href="pendents.html"><b class="nh N">Pendants</b></a></li>
+<li><a class="dropdown-item" href="tablelamp.html"><b class="nh N">Table Lamps</b></a></li>
+<li><a class="dropdown-item" href="celinglight.html"><b class="nh N">Cieling Light</b></a></li>
+<li><a class="dropdown-item" href="sconses.html"><b class="nh N">Sconces</b></a></li>
+<li><a class="dropdown-item" href="lampshades.html"><b class="nh N">Lamp Shades</b></a></li>
+</ul>
+</li>
+<li class="nav-item">
+<a class="nav-link active" aria-current="page" href="#G"> <b class="N "> Gallery </b></a>
+</li>
+<li class="nav-item">
+<a class="nav-link " href="#led"> <b class="N ">Light</b></a>
+</li>
+<li class="nav-item">
+<a class="nav-link NH" href="#Spot"> <b class="N ">Spotlight</b> </a>
+</li>
+<li class="nav-item">
+<a class="nav-link NH" href="Feedback form.html"> <b class="N ">Contact Us</b> </a>
+</li>
+<li class="nav-item">
+<a class="nav-link NH" href="Doc/Chic Lighting.doc"> <b class="N ">Download</b> </a>
+</li>
+<b> <div  class="website-counter wb-c rounded-pill ou N "></div></b>
+ <br>
+<button class="rounded-pill bs glown N" onclick="document.getElementById('id01').style.display='block'"><b>Login</b> </button>
+ </ul>
+<!-- <form class="d-flex">
+ <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+<button class="btn btn-outline-success" type="submit">Search</button>
+</form> -->
+</div>
+</div>
+</nav>
+</div>
+<!-- Navbar End -->
+
+<div class="row S3">
+<div class="col m-20">
+<div class="container S3">
+<form action="/action_page.php">
+      
+<div style="color: white" class="row">
+<div class="col">
+<h3><b class="N"> Billing Address</b></h3>
+<hr>
+<label for="fname"><i class="fa fa-user"></i> <b> Full Name</b></label>
+<input type="text" id="fname" name="firstname" placeholder="Huzaifa">
+<label for="email"><i class="fa fa-envelope"></i><b> Email</b></label>
+<input type="text" id="email" name="email" placeholder="abc@example.com">
+<label for="adr"><i class="fa fa-address-card-o"></i><b> Address</b></label>
+<input type="text" id="adr" name="address" placeholder="Street">
+<label for="city"><i class="fa fa-institution"></i><b> City</b></label>
+<input type="text" id="city" name="city" placeholder="Karachi">
+      
+<div class="row">
+<div class="col">
+<label for="state"><b> Province</b></label>
+<input type="text" id="state" name="state" placeholder="Sindh">
+</div>
+
+<div class="col">
+<label for="zip"><b> Zip</b></label>
+<input type="text" id="zip" name="zip" placeholder="00000">
+</div>
+</div>
+</div>
+      
+<div class="col">
+<h3><b class="N"> Payment</b></h3>
+<hr>
+<label for="fname"><b> Accepted Cards</b></label>
+<div class="icon-container">
+<img src="Images/Billing/icons8-paypal-30.png" alt="PayPal">
+<img src="Images/Billing/icons8-mastercard-credit-card-30.png" alt="MasterCard">
+
+</div>
+
+<label for="cname"><b> Name on Card</b></label>
+<input type="text" id="cname" name="cardname" placeholder="Muhammad Huzaifa">
+<label for="ccnum"><b> Credit card number</b></label>
+<input type="text" id="ccnum" name="cardnumber" placeholder="+92-300-000-0000">
+<label for="expmonth"><b> Exp Month</b></label>
+<input type="text" id="expmonth" name="expmonth" placeholder="September">
+      
+<div class="row">
+<div class="col">
+<label for="expyear"><b> Exp Year</b></label>
+<input type="text" id="expyear" name="expyear" placeholder="2022">
+</div>
+<div class="col">
+<label for="cvv"><b> CVV</b></label>
+<input type="text" id="cvv" name="cvv" placeholder="352">
+</div>
+</div>
+</div>
+      
+</div>
+<label>
+<input type="checkbox" checked="checked" name="sameadr"><b style="color: white
+"> Shipping address same as billing</b>
+</label>
+<input style="color: white; width: 30%; background-color: grey; margin-left: 90px;margin-top: 20px; margin-bottom: 20px;" type="submit" value="Continue to checkout" class="btn rounded-pill">
+</form>
+</div>
+</div>
+
+
+
+<!-- footer start -->
+<div class="container-fulid mt-5 ft" data-aos="fade-up"data-aos-easing="linear"data-aos-duration="300"> 
+  <div class="row mt-5">
+  <div class="col-8">
+  <h1 class="mt-3 glown"><b style="font-family: 'Courgette', cursive; float:left;margin-left:20px; font-size: 45px;">Stay Connected</b></h1>
+  <input type="search" class="search1 mt-2"  placeholder="Search">
+  <button type="button" class="search2 mt-2"><b>Search</b></button>
+  </div>
+  <div class="col-4">
+  <div class="but mt-4">
+  <img src="Images/Footer/icons8-pinterest-30.png" alt="" style="margin-left: 15px">
+  <img src="Images/Footer/icons8-instagram-30.png" alt="" style="margin-left: 15px">
+  <img src="Images/Footer/icons8-facebook-30.png" alt="" style="margin-left: 15px">
+  <img src="Images/Footer/icons8-twitter-30.png" alt="" style="margin-left: 15px">
+  <img src="Images/Footer/icons8-youtube-40.png" alt="" style="margin-left: 15px">
+  <img  src="Images/Footer/icons8-linkedin-circled-35.png" alt="" style="margin-left: 15px">
+  </div>
+  </div>
+  </div>
+  
+  <div class="row ">
+  <div class="col-2">
+  <div class="aboutusf mt-5 ">
+  <h4 class="N">
+  <b style="font-size:25px;font-family: 'Arvo', serif;">About Us </b>
+  </h4>
+  <hr>
+  <a style="text-decoration: none" href="#S3"><h5 class="N" style="font-family: 'Arvo', serif;"> About Chic Lighting</h5></a>
+  <a style="text-decoration: none" href="https://goo.gl/maps/jzoQeKWu9sPbHHUS7"> <h5 class="N" style="font-family: 'Arvo', serif;">Store locator</h5> </a>  
+  <h5 class="N" style="font-family: 'Arvo', serif;"> Career</h5>
+  <h5 class="N" style="font-family: 'Arvo', serif;"> Lighting design service</h5> 
+  </div>
+  </div>
+  
+  <div class="col-2">
+  <div class="aboutusf mt-5">
+  <h4 class="N"><b style="font: size 25px;font-family: 'Arvo', serif;"> B2B Programs</b> 
+  </h4>
+  <hr>
+  <h5 class="N" style="font-family: 'Arvo', serif;">Chic Lighting Pros</h5> 
+  <a style="text-decoration: none ;font-family: 'Arvo', serif;" href="https://goo.gl/maps/jzoQeKWu9sPbHHUS7"> <h5 class="N" >Store locator</h5> </a>  
+  </div>
+  </div>
+  
+  <div class="col-3" >
+  <div class="aboutusf mt-5">
+  <h4 class="N"><b style="font-size: 25px; font-family: 'Arvo', serif;">Customer Service</b>
+  </h4>
+  <hr>
+  <h5 class="N" style="font-family: 'Arvo', serif;" > Help</h5> 
+  <h5 class="N" style="font-family: 'Arvo', serif;"> Contact us</h5>  
+  <h5 class="N" style="font-family: 'Arvo', serif;"> Order status </h5> 
+  <h5 class="N" style="font-family: 'Arvo', serif;"> Return Policy</h5> 
+  <h5 class="N" style="font-family: 'Arvo', serif;"> Rate Us </h5> 
+  </div>
+  </div>
+        
+  <div class="col-2" >
+  <div class="aboutusf mt-5">
+  <h4 class="N"><b style="font-size: 25px; font-family: 'Arvo', serif;">Resources</b>
+  </h4>
+  <hr>
+  <h5 class="N" style="font-family: 'Arvo', serif;"> Ideas and Advice</h5>
+  <h5 class="N" style="font-family: 'Arvo', serif;"> Catalogs</h5>
+  <h5 class="N" style="font-family: 'Arvo', serif;">Gift Cards</h5>
+  <h5 class="N" style="font-family: 'Arvo', serif;">Manage Account</h5> 
+  <h5 class="N" style="font-family: 'Arvo', serif;">New Homeowner Coupon</h5>
+  </div>
+  </div>
+  <div class="col-3" >
+  <div class="aboutusf mt-5">
+  <h4 class="N"><b style="font-size: 25px; font-family: 'Arvo', serif;">Cantact Us</b>
+  </h4>
+  <hr>
+  <i class="fa-solid fa-phone-flip fa-xl"></i>
+  <h5 class="N" style="font-family: 'Arvo', serif;"><b>0316-214-8010 </b></h5>
+  <hr>
+  <a style="text-decoration: none;color: white;" href="https://mail.google.com/mail/u/0/#inbox?compose=new"> 
+  <i class="fa-solid fa-envelope fa-xl"></i>
+  <h5 class="N" style="font-family: 'Arvo', serif;"><b> Email-ChicLighting.com</b></h5></a>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- Footer end -->
+  
+  
+  <!-- Ticker Start -->
+  <section class="container-fluid page-head">
+  <div class="container-fluid  page-head__ticker">
+  <p class="msg"><span id="date-time"></span></p>
+  </div>
+  </section>
+  <!-- Ticker End -->
+  
+  
+  
+  <!-- Script Start -->
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
+  <script>
+  AOS.init();
+  </script>
+  <!-- Counter JavaScript Start -->
+  <script>
+  var counterContainer = document.querySelector(".website-counter");
+  var visitCount = localStorage.getItem("page_view");
+  // Check if page_view entry is present
+  if (visitCount) {
+  visitCount = Number(visitCount) + 1;
+  localStorage.setItem("page_view", visitCount);
+  } 
+  else {
+  visitCount = 1;
+  localStorage.setItem("page_view", 1);
+  }
+  counterContainer.innerHTML = visitCount;
+  </script>
+  <script>
+  var dt = new Date();
+  document.getElementById('date-time').innerHTML=dt;
+  </script>
+  <!-- Counter JavaScript End -->
+  <!-- Script End -->
+  
+  <!-- Login Form Js Start -->
+  <script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+    
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+  if (event.target == modal) {
+  modal.style.display = "none";
+  }
+  }
+  </script>
+  <!-- Login Form Js End -->
+    
+</body>
+</html>

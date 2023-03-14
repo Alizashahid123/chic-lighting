@@ -1,0 +1,25 @@
+						Search Animation scroll library for classes
+
+
+    Place this CSS Link in head tag:
+
+	Like this -> 
+		 <head>  
+			<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		</head> 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    
+
+
+	Place this jQuery Link in Script tag before Body tag:
+
+	Like this -> 
+	
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+   		<script>
+    			 AOS.init();
+   		</script>
+		
+	</body>

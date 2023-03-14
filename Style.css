@@ -1,0 +1,845 @@
+.B{
+background: url(Images/Background/photo-1505771215590-c5fa0aec29b8.jfif)rgb(0, 0, 0) ;
+}
+.glow {
+font-size: 40px;
+color:orange;
+text-align: center;
+animation: glow 1.5s ease-in-out infinite alternate;
+}
+.glown{
+ /* font-size: px; */
+text-align: center;
+animation: glow 1.5s ease-in-out infinite alternate;
+}
+@keyframes glow {
+from {
+text-shadow: 0 0 10px rgb(63, 55, 42), 0 0 20px rgb(73, 66, 58), 0 0 30px #5c4f43, 0 0 40px #4d433b, 0 0 50px #7a6f64, 0 0 60px #f8a221, 0 0 70px #6d6454;
+} 
+to
+{
+text-shadow: 0 0 20px rgb(236, 189, 33), 0 0 30px #f59d19, 0 0 40px #f18933, 0 0 50px #f8d14f, 0 0 60px #363428, 0 0 70px #eead4b, 0 0 80px #f3b814;
+}
+}
+.a{
+text-decoration: none;
+}
+.N{
+color: white;
+text-decoration: none;
+margin-top: 7px;
+}
+.N:hover{
+color: orange;
+}
+/* .Nh{
+ padding-left: 530px; 
+} */
+.nh{ float: left;
+  color: black;
+}
+.logo{
+/* border: 2px red ridge; */
+float: left;
+}
+.logotext{
+/* border: 2px rgb(234, 40, 40) ridge; */
+float: left;
+font-size: 50px;
+color:orange;
+}
+.logotext1{
+color: black;
+font-size: 50px;
+}
+.ou{
+/* border: 2px red ridge; */
+height: 30px;
+width: 50px;
+background-color: rgba(10, 7, 7, 0.884);
+color: white;
+text-align: center;
+padding-top: 1px;
+margin-top: 7px;
+}
+
+/* Section 1 Css Start */
+.Had{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+.fanheading{
+/* border: 2px black ridge; */
+text-align: center;
+color: white;
+/* background-color: white; */
+/* font-family: Georgia; */
+}
+.fan{
+/* border: 2px green ridge; */
+height: 255px;
+text-align: center;
+float: left;
+color: white;
+text-decoration: none;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+}
+.fim1{
+/* border: 2px black ridge; */
+width: 278px;
+color: white;
+text-align: center;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+}
+.chandiliersheading{
+/* border: 2px black ridge ; */
+text-align: center;
+color:white;
+/* background-color: black; */
+}
+.chandiliers{
+/* border: 2px green ridge ; */
+height: 254px;
+text-align: center;
+float: left;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+}
+.cim{
+/* border: 2px black ridge; */
+width: 278px;
+ color: white;
+font-weight: solid;
+text-align: center;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+margin-left: 45px;
+}
+.outheading{
+/* border: 2px black ridge ; */
+text-align: center;
+color:white;
+ /* background-color: black; */
+/* box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2); */
+}
+.outdoorlight{
+/* border: 2px green ridge ; */
+height: 253.5px;
+text-align: center;
+float: left;
+color: white;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+}
+.om{
+/* border: 2px black ridge; */
+width: 278px;
+color: white;
+text-align: center;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+margin-left: 45px;
+}
+.penheading{
+/* border: 2px black ridge ; */
+text-align: center;
+color:white;
+/* background-color: black; */
+}
+.pendents{
+/* border: 2px green ridge ; */
+height: 254px;
+text-align: center;
+float: left;
+color: white;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+}
+.pim{
+/* border: 2px black ridge; */
+width: 278px;
+color: white;
+text-align: center;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+margin-left: 50px;
+}
+.c{
+height: 40px;
+width: 100%;
+/* border: 2px green ridge; */
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.tlheading{
+/* border: 2px black ridge ; */
+text-align: center;
+color: white;
+/* background-color: black; */
+}
+.tablelamp{
+/* border: 2px green ridge ; */
+height: 254px;
+text-align: center;
+color: white;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+}
+.tim{
+/* border: 2px black ridge; */
+width: 290px;
+color: white;
+text-align: center;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+margin-left: 45px;
+}
+.ceillingheading{
+/* border: 2px black ridge ; */
+text-align: center;
+color: white; 
+}
+.ceilinglight{
+/* border: 2px green ridge ; */
+height: 254px;
+width: 254px ;
+text-align: center;
+float: left;
+color:white;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2)
+}
+.clim{
+/* border: 2px black ridge; */
+width: 278px;
+color: white;
+text-align: center;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+margin-left: 45px;
+}
+.sconheading{
+/* border: 2px black ridge ; */
+text-align: center;
+color: white;
+/* background-color: black; */
+}
+.sconses{
+/* border: 2px green ridge ; */
+height: 254px;
+width: 254px ;
+text-align: center;
+float: left;
+color: white;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+}
+.sim{
+/* border: 2px black ridge; */
+width: 278px;
+color: white;
+text-align: center;
+margin-left: 45px;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+}
+.shadesheading{
+/* border: 2px black ridge ; */
+text-align: center;
+color: white;
+/* background-color: black; */
+}
+.lampshades{
+/* border: 2px green ridge; */
+height: 254px;
+width: 254px ;
+text-align: center;
+float: left;
+color: white;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2)
+}
+.lsim{
+/* border: 2px black ridge; */
+width: 278px;
+color: white;
+text-align: center;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+margin-left: 45px;
+}
+/* Section 1 End  */
+
+
+/* Section 2 css Start */
+
+.im1{
+/* border: 5px red ridge; */
+font-size: 5px;
+text-align: center;
+color: white;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2)
+}
+.im5{
+color:white;
+text-align: center;
+font-family: 'Arvo', serif;
+}
+.btn{
+background-color: black;
+color: white;
+font-family: 'Arvo', serif;
+margin-bottom: 10px;
+}
+.head1{
+text-align: center;
+}
+.Font2{
+  font-family: 'Arvo', serif;
+  text-align: center;
+}
+
+
+.im2{
+/* border: 5px red ridge;  */
+width: 235px ;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+.im6{
+/* border: 5px red ridge;  */
+width: 235px ;
+text-align: center; 
+}
+.im8{
+/* border: 5px red ridge;  */
+width: 235px ;
+font-family: Arial, Helvetica, sans-serif; 
+text-align: center;  
+}
+.im8{
+/* border: 5px red ridge;  */
+width: 235px ;
+font-family: Arial, Helvetica, sans-serif; 
+text-align: center;  
+}
+/* Section 2 Css End */
+
+/* Feed Back Form CSS */
+/* Style inputs with type="text", select elements and textareas */
+  /* Style the submit button with a specific background color etc */
+.Formdiv{
+border: 2px darkmagenta ridge;
+margin-top: 20px;
+}
+.lname{
+background-color:black;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-left: 60px;
+}
+  
+/* When moving the mouse over the submit button, add a darker green color */
+.name {
+background-color: black;
+color: white;
+cursor: pointer;
+padding: 12px 20px;
+margin-left: 150px;
+}
+  
+/* Add a background color and some padding around the form
+ .issues {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+.issue {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+} */
+
+.country{
+background-color:black;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-left: 60px;
+}
+  
+.issue{
+background-color: black;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer; 
+float: left;
+margin-top: 60px;
+  }
+
+  .subject{
+border: 2px red ridge;
+height: 100px;
+width: 200px;
+margin-top: 40px;
+margin-left: 20px;
+}
+.Galleryhading{
+height: 55px;
+width: 100%;
+background-color: black;
+color: orange;
+text-align: center;
+font-size: 35px;
+font-family: Arial, Helvetica, sans-serif;   
+}
+.Gallery{
+/* border: 2px red ridge; */
+float: left;
+height: 250px;
+width: 368px;
+
+}
+/* Section 3 Start */
+.S3{
+  background-color: rgba(10, 7, 7, 0.884);
+height: auto;
+color: white;
+box-shadow: 0 10px 10px 0 rgba(233, 228, 228, 0.2);
+}
+.S2{
+  background-color: rgba(10, 7, 7, 0.884);
+height: 300px;
+}
+
+.S31{
+/* border: 2px black ridge; */
+/* width: 600px ; */
+height:780px  ;
+}
+.in1{
+/* border: 2px black ridge; */
+margin-left: 110px;
+/* height: 290px ;
+width: 600px;  */
+color: white;
+}
+/* Section 3 End */
+
+/* footer css start */
+
+.ft{
+background-color: rgba(10, 7, 7, 0.884);
+color: white;
+}
+.input-group{
+  /* border: 2px black ridge; */
+width: 500px;
+margin-left: 50px ;
+height: 50px;
+padding-top: 20px;
+}
+.search1{
+width: 250px ;
+height: 40px;
+margin-left: 15px;
+float: left;
+font-family: 'Arvo', serif;
+}
+.search2{
+border: 2px rgb(207, 204, 204) ridge;
+width: 75px ;
+height: 40px;
+background-color:black;
+color:white;
+float: left;
+font-family: 'Arvo', serif;
+}
+/* */
+
+.aboutus4{
+border-right: 1px black ridge ;
+}
+.aboutusf{
+margin-left: 20px;
+}
+/* footer css End  */
+
+
+/* Ticker Css Start */
+.page-head {
+background-color: rgba(10, 7, 7, 0.884);
+color: white;
+/* border: 2px red ridge; */
+font-size: 30px;
+}
+
+/*** Ticker*/
+.page-head__ticker {
+font-size: 20px;
+/* font-weight: Bold; */
+height: 30px;
+/* line-height: 1; */
+/* padding: 0 12px; */
+text-transform: uppercase;
+overflow: hidden;
+/* border: 2px green ridge; */
+width: 100%;
+}
+
+.msg {
+margin:  auto;
+/* white-space: nowrap; */
+overflow: hidden;
+animation: marquee 15s linear infinite;
+display:inline-block;
+width: 100%;
+font-family: 'Arvo', serif;
+}
+
+@keyframes marquee {
+0% {
+transform: translate(0,0);
+}
+
+100% {
+transform: translate(100%);
+/* changed from 100% */
+}
+}
+/* Ticker Css End */
+.w{
+height: 200px;
+width: 400px;
+}
+.g{
+border: 2px green ridge ;
+height: 1000px;
+width: 100%;
+}
+
+/* Form Css Start */
+
+.background4{
+/* background-color: black; */
+color: white;
+}
+
+.s{
+margin-right: 200px;
+margin-left: 200px;
+/* margin-top: 20px; */
+}
+.l{
+/* margin-left: 60px; */
+width: 300px;
+}
+/* Form Css End */
+body {
+font-family: Verdana, sans-serif;
+margin: 0;
+}
+
+*{
+ box-sizing: border-box;
+}
+
+.row > .column {
+padding: 0 8px;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.column {
+float: left;
+/* width: 25%; */
+}
+.g1{
+  border: 5px white ridge;
+}
+.g2{
+  box-shadow: 0px 0px 10px 10px rgba(240, 239, 239, 0.582);
+}
+/* The Modal (background) */
+.modal {
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: black;
+}
+
+.F{
+width: 500px;
+}
+/* Modal Content */
+.modal-content {
+position: relative;
+background-color: #fefefe;
+margin: auto;
+padding: 0;
+width: 90%;
+max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+color: white;
+position: absolute;
+top: 10px;
+right: 25px;
+font-size: 35px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #999;
+text-decoration: none;
+cursor: pointer;
+}
+
+.mySlides {
+display: none;
+}
+
+.cursor {
+cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Login Form Css Start */
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: rgb(20, 20, 20, 0.7) ;
+  color: white;
+ padding-bottom: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  background-color: rgba(10, 7, 7, 0.884);
+  text-align: center;
+  margin: 12px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 10%;
+  border-radius: 10%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+/* Login Form Css End */
+
+
+/* Modal Form Css Start */
+
+/* The Modal (background) */
+.bs{
+width: 100px;
+/* height: 40px; */
+text-align: center;
+font-size: 18px;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* Modal Form Css End */
+
+
+
+/* About Us Css */
+
+
+.Abs{
+background-color: rgb(20, 20, 20, 0.7);
+}
+
+.Hd1{
+color: white;
+font-size: 60px; 
+text-align: center; 
+}
+.Pag{
+ font-size: 30px;
+color: white;
+}
+
+
+
+
+/* About Us Css */
